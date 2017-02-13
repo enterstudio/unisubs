@@ -16,7 +16,7 @@ class Command(BaseCommand):
 
     def setup_videourl_index(self, cursor):
         cursor.execute('ALTER TABLE videos_videourl '
-                       'ADD UNIQUE url_type (url(255), type)')
+                       'ADD INDEX url_prefix (url(255))')
 
     def setup_video_fulltext_index(self, cursor):
         # Setup a fulltext index on the text column for VideoIndex.  We need
