@@ -2073,7 +2073,7 @@ class VideoUrl(models.Model):
     # type should be 2 chars long with the first char being unique for the
     # app.
     type = models.CharField(max_length=2)
-    url = models.URLField(max_length=512)
+    url = models.URLField(max_length=2048)
     url_hash = models.CharField(max_length=32)
     videoid = models.CharField(max_length=50, blank=True)
     primary = models.BooleanField(default=False)
