@@ -63,7 +63,7 @@ nose-exclude==0.2.0
 unittest2==0.5.1
 git+git://github.com/cmheisel/nose-xcover.git#egg=nosexcover
 django-nose==1.2
-pylint==1.4.4
+pylint==2.5.0
 mock==1.0.1
 # selenium test suite
 selenium==2.50.1
