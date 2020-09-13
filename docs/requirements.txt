@@ -31,3 +31,5 @@ django-simple-captcha==0.5.1
 django-registration
 pygal
 pafy
+
+sphinx>=3.0.4 # not directly required, pinned by Snyk to avoid a vulnerability
