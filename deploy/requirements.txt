@@ -28,7 +28,7 @@ djangorestframework-yaml==1.0.3
 vendor/boto-2.1.0-0.tar.gz
 -e git+https://github.com/linsomniac/python-memcached.git@bacb8058152873e46e6a2367452a353e4d98a065#egg=python-memcached
 feedparser==5.2.1
-lxml==2.3
+lxml==4.6.2
 transifex-client==0.8
 # do we really need this in prod?
 django-debug-toolbar==1.2
