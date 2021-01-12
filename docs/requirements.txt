@@ -31,3 +31,4 @@ django-simple-captcha==0.5.1
 django-registration
 pygal
 pafy
+rsa>=4.7 # not directly required, pinned by Snyk to avoid a vulnerability
