@@ -4,7 +4,7 @@ html5lib==0.95
 # this will be removed after the rollout of amqp
 vendor/amqplib-1.0.2-patched.tar.gz
 amqp==1.0.8
-Django==1.4.21
+Django==2.2.18
 South==0.7.4
 easy-thumbnails==1.4
 Pillow==2.6.0
