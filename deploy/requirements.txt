@@ -77,3 +77,4 @@ django-ipware==1.1.2
 uwsgi==2.0.14
 newrelic
 subprocess32
+pygments>=2.7.4 # not directly required, pinned by Snyk to avoid a vulnerability
