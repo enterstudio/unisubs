@@ -7,7 +7,7 @@ amqp==1.0.8
 Django==1.4.21
 South==0.7.4
 easy-thumbnails==1.4
-Pillow==2.6.0
+Pillow==8.2.0
 Babel==2.1.1
 pyuca==1.1
 vendor/django-registration.tar.gz
@@ -21,7 +21,7 @@ django-celery==3.0.10
 pycrypto==2.6.1
 oauth==1.0.1
 oauth2==1.5.211
-djangorestframework==3.2.0
+djangorestframework==3.11.2
 djangorestframework-xml==1.3.0
 djangorestframework-yaml==1.0.3
 -e git+git://github.com/teddziuba/django-sslserver.git#egg=django-sslserver
