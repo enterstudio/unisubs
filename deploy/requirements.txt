@@ -8,7 +8,7 @@ Django==1.4.21
 South==0.7.4
 easy-thumbnails==1.4
 Pillow==2.6.0
-Babel==2.1.1
+Babel==2.9.1
 pyuca==1.1
 vendor/django-registration.tar.gz
 vendor/python-openid-2.2.5.tar.gz
