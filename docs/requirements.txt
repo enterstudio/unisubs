@@ -1,4 +1,4 @@
-Django==1.4.13
+Django==2.2.18
 sphinxcontrib-httpdomain
 sphinxcontrib-napoleon==0.3.2
 sphinx_rtd_theme
@@ -18,7 +18,7 @@ boto==2.1.0
 redis==2.4.5
 easy-thumbnails==1.4
 lxml==2.3
-requests==0.13.1
+requests==1.1.0
 PyJWT==0.4.3
 -e git+https://github.com/jsocol/bleach.git@105b4cfc2f00cc1954bcab3b39b16fbfaf8863e0#egg=bleach
 oauth2==1.5.211
@@ -31,3 +31,7 @@ django-simple-captcha==0.5.1
 django-registration
 pygal
 pafy
+oauthlib>=0.7.0 # not directly required, pinned by Snyk to avoid a vulnerability
+pillow>=8.1.0 # not directly required, pinned by Snyk to avoid a vulnerability
+pygments>=2.7.4 # not directly required, pinned by Snyk to avoid a vulnerability
+sphinx>=3.0.4 # not directly required, pinned by Snyk to avoid a vulnerability
