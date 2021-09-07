@@ -4,10 +4,10 @@ html5lib==0.95
 # this will be removed after the rollout of amqp
 vendor/amqplib-1.0.2-patched.tar.gz
 amqp==1.0.8
-Django==1.4.21
+Django==2.2.18
 South==0.7.4
 easy-thumbnails==1.4
-Pillow==2.6.0
+Pillow==8.1.0
 Babel==2.1.1
 pyuca==1.1
 vendor/django-registration.tar.gz
@@ -34,7 +34,7 @@ transifex-client==0.8
 django-debug-toolbar==1.2
 # This can be commented out if you're using sqlite
 MySQL_python>=1.2.2
-Sphinx==1.1.3
+Sphinx==3.0.4
 # pyfacebook needs to be forked as not do fight with oboeware
 vendor/pyfacebook-1.0a2.tar.gz
 vendor/Unidecode-0.04.9.tar.gz
@@ -77,3 +77,4 @@ django-ipware==1.1.2
 uwsgi==2.0.14
 newrelic
 subprocess32
+pygments>=2.7.4 # not directly required, pinned by Snyk to avoid a vulnerability
