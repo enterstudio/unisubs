@@ -1,4 +1,4 @@
-Django==1.4.13
+Django==2.2.24
 sphinxcontrib-httpdomain
 sphinxcontrib-napoleon==0.3.2
 sphinx_rtd_theme
@@ -12,14 +12,14 @@ django-extensions
 pysolr==2.0.14
 pycrypto==2.6.1
 South==0.7.4
-djangorestframework==3.0.3
+djangorestframework==3.11.2
 django-tastypie==0.9.11
 boto==2.1.0
 redis==2.4.5
 easy-thumbnails==1.4
-lxml==2.3
-requests==0.13.1
-PyJWT==0.4.3
+lxml==4.6.3
+requests==2.20
+PyJWT==1.5.1
 -e git+https://github.com/jsocol/bleach.git@105b4cfc2f00cc1954bcab3b39b16fbfaf8863e0#egg=bleach
 oauth2==1.5.211
 feedparser
