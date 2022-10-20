@@ -4,7 +4,7 @@ sphinxcontrib-napoleon==0.3.2
 sphinx_rtd_theme
 -e git+https://github.com/pculture/unilangs.git#egg=unilangs
 -e git+https://github.com/pculture/babelsubs.git#egg=babelsubs
-celery==3.0.11
+celery==5.2.2
 pycrypto==2.6.1
 django-celery==3.0.10
 django-haystack==1.2.7
