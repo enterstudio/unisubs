@@ -4,7 +4,7 @@ html5lib==0.95
 # this will be removed after the rollout of amqp
 vendor/amqplib-1.0.2-patched.tar.gz
 amqp==1.0.8
-Django==1.4.21
+Django==3.2.15
 South==0.7.4
 easy-thumbnails==1.4
 Pillow==2.6.0
@@ -28,7 +28,7 @@ djangorestframework-yaml==1.0.3
 vendor/boto-2.1.0-0.tar.gz
 -e git+https://github.com/linsomniac/python-memcached.git@bacb8058152873e46e6a2367452a353e4d98a065#egg=python-memcached
 feedparser==5.2.1
-lxml==2.3
+lxml==4.9.1
 transifex-client==0.8
 # do we really need this in prod?
 django-debug-toolbar==1.2
