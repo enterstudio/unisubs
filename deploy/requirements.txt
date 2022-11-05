@@ -4,7 +4,7 @@ html5lib==0.95
 # this will be removed after the rollout of amqp
 vendor/amqplib-1.0.2-patched.tar.gz
 amqp==1.0.8
-Django==1.4.21
+Django==3.2.15
 South==0.7.4
 easy-thumbnails==1.4
 Pillow==2.6.0
@@ -15,7 +15,7 @@ vendor/python-openid-2.2.5.tar.gz
 vendor/python-yadis-1.1.0.tar.gz
 vendor/gdata-2.0.16.tar.gz
 vendor/BeautifulSoup-3.2.0.tar.gz
-celery==3.0.11
+celery==5.2.2
 billiard==2.7.3.30 # needed for process pools to work in celery
 django-celery==3.0.10
 pycrypto==2.6.1
