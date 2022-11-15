@@ -1,4 +1,4 @@
-Django==1.4.13
+Django==3.2.15
 sphinxcontrib-httpdomain
 sphinxcontrib-napoleon==0.3.2
 sphinx_rtd_theme
@@ -18,7 +18,7 @@ boto==2.1.0
 redis==2.4.5
 easy-thumbnails==1.4
 lxml==2.3
-requests==0.13.1
+requests==2.20
 PyJWT==0.4.3
 -e git+https://github.com/jsocol/bleach.git@105b4cfc2f00cc1954bcab3b39b16fbfaf8863e0#egg=bleach
 oauth2==1.5.211
