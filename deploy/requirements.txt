@@ -38,7 +38,7 @@ Sphinx==1.1.3
 # pyfacebook needs to be forked as not do fight with oboeware
 vendor/pyfacebook-1.0a2.tar.gz
 vendor/Unidecode-0.04.9.tar.gz
-M2Crypto==0.21.1
+M2Crypto==0.39.0
 vendor/django-templatetag-sugar.tar.gz
 vendor/django-tastypie-0.9.11.tar.gz
 # this should be commented until we are sure we want to deploy this to prod
