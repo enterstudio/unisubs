@@ -1,4 +1,4 @@
-Django==1.4.13
+Django==3.2.23
 sphinxcontrib-httpdomain
 sphinxcontrib-napoleon==0.3.2
 sphinx_rtd_theme
@@ -31,3 +31,4 @@ django-simple-captcha==0.5.1
 django-registration
 pygal
 pafy
+pillow>=10.0.0 # not directly required, pinned by Snyk to avoid a vulnerability
