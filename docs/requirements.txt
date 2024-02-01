@@ -4,7 +4,7 @@ sphinxcontrib-napoleon==0.3.2
 sphinx_rtd_theme
 -e git+https://github.com/pculture/unilangs.git#egg=unilangs
 -e git+https://github.com/pculture/babelsubs.git#egg=babelsubs
-celery==3.0.11
+celery==4.4.0rc5
 pycrypto==2.6.1
 django-celery==3.0.10
 django-haystack==1.2.7
@@ -31,3 +31,4 @@ django-simple-captcha==0.5.1
 django-registration
 pygal
 pafy
+pillow>=10.2.0 # not directly required, pinned by Snyk to avoid a vulnerability
