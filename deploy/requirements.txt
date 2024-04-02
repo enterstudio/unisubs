@@ -7,7 +7,7 @@ amqp==1.0.8
 Django==1.4.21
 South==0.7.4
 easy-thumbnails==1.4
-Pillow==2.6.0
+Pillow==10.3.0
 Babel==2.1.1
 pyuca==1.1
 vendor/django-registration.tar.gz
@@ -63,7 +63,7 @@ nose-exclude==0.2.0
 unittest2==0.5.1
 git+git://github.com/cmheisel/nose-xcover.git#egg=nosexcover
 django-nose==1.2
-pylint==1.4.4
+pylint==2.6.1
 mock==1.0.1
 # selenium test suite
 selenium==2.50.1
